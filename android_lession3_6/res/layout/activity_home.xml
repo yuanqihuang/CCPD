@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity" >
+
+    <LinearLayout
+        android:id="@+id/home_ll_prov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/home_tv_prov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省份：" />
+
+        <EditText
+            android:id="@+id/home_et_prov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_ll_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_ll_prov" >
+
+        <TextView
+            android:id="@+id/home_tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市:" />
+
+        <EditText
+            android:id="@+id/home_et_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_ll_city" >
+
+        <TextView
+            android:id="@+id/home_tv_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市:" />
+
+        <EditText
+            android:id="@+id/home_et_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/home_btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="18dp"
+        android:text="确定" />
+
+</RelativeLayout>
