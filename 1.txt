@@ -5,4 +5,8 @@ lingouta  assasa
 =======
 lingouta
 qnmd
+<<<<<<< HEAD
 >>>>>>> dfd16cd673aaf86125c773729cb20a9804420836
+=======
+nmmp
+>>>>>>> a5eabc1eb1d3eae6c64511f5ab4b79aee9a6ff7c
